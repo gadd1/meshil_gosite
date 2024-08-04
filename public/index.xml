@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home | Creator&#39;s Landing Page | Hugo Theme</title>
+    <title>בית | Creator&#39;s Landing Page | Hugo Theme</title>
     <link>http://localhost:1313/</link>
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <description>Home</description>
+    <description>בית</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>he</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/logo.svg</url>
-      <title>Home</title>
+      <title>בית</title>
       <link>http://localhost:1313/</link>
     </image>
     
@@ -243,7 +243,7 @@
 
 
 
-&lt;div id=&#34;chart-234516987&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-865341729&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -261,7 +261,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-234516987&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-865341729&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
