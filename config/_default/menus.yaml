@@ -3,18 +3,18 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: דף בית
     url: /#top
     weight: 10
-  - name: Features
+  - name: פיצרים
     url: /#features
     weight: 20
-  - name: Solutions
+  - name: פתרונות
     url: /#solutions
     weight: 30
-  - name: Resources
+  - name: משאבים
     weight: 40
     hasChildren: true
-  - parent: Resources
-    name: Blog
+  - parent: משאבים
+    name: בלוג
     url: blog/
